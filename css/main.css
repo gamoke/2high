@@ -1,0 +1,167 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face{
+	src: url("../font/DFVN CALATHEA.otf");
+	font-family: CALATHEA;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-lg{
+	width: 1440px;
+	margin: 0 auto;
+}
+.background{
+	background-color: black;
+	z-index: -5;
+}
+.container{
+	width: 1110px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row>[class*="col-"]{
+	padding: 12px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: CALATHEA;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 5;
+}
+.logo a{
+	font-size: 2em;
+	text-decoration: none;
+	transition-duration: 1s;
+	color: white;
+}
+.logo a:hover{
+	opacity: 85%;
+	color: #E595B5;
+}
+.nav a{
+	text-decoration: none;
+	padding: 0 12px;
+	transition-duration: 1s;
+	color: white;
+	font-size: 1em;
+}
+.nav a:hover{
+	padding: 0 24px;
+	color: #E595B5;
+	text-shadow: 0 0 20px #E595B5;
+}
+.textm{
+	color: white;
+	font-size: 1em;
+	width: 30%;
+	height: 100%;
+}
+.textm p{
+	align-items: center;
+}
+.bf{
+	width: 70%;
+	height: 100%;
+}
+.feature img{
+	height: 20vh;
+	padding: 12px 0;
+	opacity: 0;
+	transition-duration: 1s;
+}
+.feature{
+	height: 35%;
+	overflow: hidden;
+}
+.textm:hover{
+	text-shadow:  0 0 10px #E595B5;
+}
+.feature img:hover{
+	opacity: 1;
+	transform: rotate(10deg);
+}
+.padding{
+	padding-left: 50px;
+}
+.blue{
+	background-color: cadetblue;
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+.justify-start{
+	justify-content: flex-start
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end
+}
+.align-center{
+	align-items: center
+}
+.align-end{
+	align-items: flex-end
+}
+.self-end{
+	align-self: flex-end
+}
+.self-center{
+	align-self: center
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}

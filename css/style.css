@@ -1,0 +1,154 @@
+/* CSS Document */
+.header{
+	padding: 6px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.3);
+}
+.sec-1{
+	margin: 50px auto;
+	height: 50vh;
+}
+.content-banner a, span{
+	color: #E595B5;
+	font-family: CALATHEA;
+	font-size: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 24px;
+	font-weight: 500;
+	text-shadow: 0 0 5px #E595B5;
+}
+.content-banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.center{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-banner a{
+	text-decoration: none;
+	transition-duration: 1s;
+	font-size: 7em;
+}
+.sec-2{
+	height: 50vh;
+}
+.feature-3{
+	height: 50%;
+	overflow: hidden;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+}
+.box span, a{
+	font-size: 2em;
+	padding: 12px 0;
+	color: #E595B5;
+	text-shadow: 0 0 0 #E595B5;
+}
+.box-f{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+.feature-3 img{
+	width: 100%;
+}
+.feature-f{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.feature-f p{
+	color: white;
+}
+.sec-3{
+	height: 100vh;
+	background-image: url("../img/hain7580.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.card{
+	height: 35vh;
+	opacity: 0;
+	transition-duration: 1s;
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+.card-2{
+	height: 25vh;
+	opacity: 0;
+	transition-duration: 1s;
+	position: absolute;
+	top: 500px;
+	left: 300px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+.card-3{
+	height: 25vh;
+	opacity: 0;
+	transition-duration: 1s;
+	position: absolute;
+	bottom: 100px;
+	right: 150px;
+	overflow: hidden;
+	border-radius: 5%;
+}
+.card:hover{
+	opacity: 1;
+}
+.card-2:hover{
+	opacity: 1;
+}
+.card-3:hover{
+	opacity: 1;
+}
+.full p{
+	color: white;
+	font-size: 1em;
+	text-align: end;
+}
+.text-card{
+	align-self: center;
+	display: flex;
+	justify-content: flex-end;
+}
+.card img, .card-2 img, .card-3 img{
+	width: 100%;
+	height: 100%;
+}
+.sec-4{
+	background-image: url("../svg/pattern 5.svg");
+	height: 50vh;
+	display: flex;
+	background-attachment: fixed;
+}
+.footer{
+	padding: 16px;
+	background-color: black;
+}
+.footer h2{
+	color:  #E595B5;
+	display: flex;
+	justify-content: center;
+}
